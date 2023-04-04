@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+body{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* border:  1px solid red; */
+    /* overflow: hidden; */
+}
+.main-inner{
+    /* border:  3px solid green; */
+    height:  100vh;
+}
+.img{
+    /* border:  1px solid rgb(0, 4, 255); */
+    background-image: url("https://i.ibb.co/MCnJgdL/bg-main-desktop.png");
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    /* width: fit-content; */
+    /* z-index:  1; */
+}
+/* card */
+.card{
+    background: transparent;
+    gap: 40px;
+    border: none;
+    /* margin-left: 5rem; */
+    /* position: relative; */
+    /* border: 1px solid yellowgreen; */
+    /* width: 400px; */
+}
+.front{
+    margin-left: 5rem;
+    position: relative;
+}
+#logo{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+#number{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    letter-spacing: 0.4rem;
+}
+#number span{
+    margin-right: 2rem;
+}
+#name{
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+#year{
+    position: absolute;
+    top: 80%;
+    right: 0;
+    color: white;
+    font-size: 1.3rem;
+}
+.back{
+    margin-left: 9rem;
+    position: relative;
+}
+#cv{
+    position: absolute;
+    top: 2.5rem;
+    right: -8rem;
+    color: white;
+}
+/* card inner */
+
+/* form */
+.form{
+    /* border:  1px solid red; */
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+form{
+    /* border: 1px solid rgb(0, 255, 85); */
+    width: 100%;
+    height: 100%;
+    margin-left: 15rem;
+    padding: 2rem;
+}
+form label{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: hsl(278, 68%, 11%);
+    font-weight: 600;
+    font-family: 'Space Grotesk', sans-serif;
+}
+form input{
+    padding: 0.4rem 0.9rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border: 1px solid hsl(270, 3%, 87%);
+}
+form input:hover{
+    outline: none;
+    border-color: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+}
+#card-details{
+  width: 450px;
+}
+#card-number{
+    width: 450px;
+}
+#cvc{
+    width: 220px;
+}
+#ye{
+    width: 90px;
+}
+#month {
+   width: 90px;
+}
+#button{
+    width: 65%;
+    background: hsl(278, 68%, 11%);
+    color: hsl(270, 3%, 87%);
+    border-radius: 10px;
+    padding: 0.7rem 2rem;
+    font-size: 1.4rem;
+}
